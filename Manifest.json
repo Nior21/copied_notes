@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Расширение для копирования",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}

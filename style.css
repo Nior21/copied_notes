@@ -1,0 +1,8 @@
+#copy-table {
+  border-collapse: collapse;
+}
+
+#copy-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
